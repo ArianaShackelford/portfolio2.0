@@ -1,4 +1,5 @@
 import React from 'react';
+import {Grommet} from 'grommet';
 
 import Header from './components/Header';
 import Bio from './components/Bio';
@@ -8,14 +9,25 @@ import Project from './components/Project';
 
 import './App.css';
 
+const theme = {
+  global: {
+    font: {
+      family: 'Abel, sans-serif',
+      size: '18px',
+      height: '20px'
+    }
+  }
+}
+
+
 function App() {
   return (
-    <div className="App">
-     <Header/>
+    <Grommet theme={theme}>
+     {/* <Header/> */}
      <Bio/>
      <Skills/>
      <Project/>
-    </div>
+     </Grommet>
   );
 }
 
