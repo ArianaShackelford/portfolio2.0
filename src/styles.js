@@ -7,7 +7,10 @@ export const Portfolio = styled.div`
     align-items: center;
     background: #202328;
     color: #eaeee1;
+    font-family: 'Abel', sans-serif;
 `;
+
+// ---------------------------------------- Navigation
 
 export const Nav = styled.nav`
     display: flex;
@@ -32,6 +35,9 @@ export const NavigationLink = styled.a`
 
 `;
 
+// --------------------------------------- Bio
+
+
 export const Biosection = styled.div`
    display: flex;
    justify-content: space-evenly;
@@ -44,12 +50,13 @@ export const Intro = styled.div`
    width: 40%;
    margin: 2rem;
    padding: 1rem;
-   line-height: 2;
+   line-height: 1.6;
+   font-size: 20px;
 `;
 
 export const Img = styled.img`
-   width: 40%;
-   height: auto;
+   width: 40rem;
+   height: 30rem;
    margin: 1rem;
    justify-content: flex-start;
 `;
