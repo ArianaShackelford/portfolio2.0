@@ -7,7 +7,7 @@ export default function Header(){
         <Nav>
             <NavigationLink href='https://github.com/ArianaShackelford/' alt='Github'>Github</NavigationLink>
             <NavigationLink href='https://www.linkedin.com/in/ariana-shackelford-87579756/' alt='Linkedin'>Linkedin</NavigationLink>
-            <NavigationLink href='' alt='twitter' />
+            {/* <NavigationLink href='' alt='twitter' /> */}
         </Nav>
         )
 }

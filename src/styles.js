@@ -16,11 +16,42 @@ export const Nav = styled.nav`
 `;
 
 export const NavigationLink = styled.a`
-   text-decoration: none;
-   color: #eaeee1;
-   margin: 1rem;
-   
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: #eaeee1;
+    background: #819c84;
+    &:hover{
+        color: #eaeee1;
+        background: #717880;
+   }
 
+`;
+
+export const Biosection = styled.div`
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 5rem;
+`;
+
+export const Intro = styled.div`
+   display: flex;
+   flex-direction: column;
+   width: 40%;
+   margin: 2rem;
+   padding: 1rem;
+   line-height: 2;
+`;
+
+export const Img = styled.img`
+   width: 40%;
+   height: auto;
+   margin: 1rem;
+   justify-content: flex-start;
 `;
 
 export const Button = styled.button`
